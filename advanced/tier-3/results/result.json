@@ -1,0 +1,115 @@
+{
+  "case_name": "Eccentrically loaded four-bolt equipment mount",
+  "inputs": {
+    "name": "Eccentrically loaded four-bolt equipment mount",
+    "model": "bolt_group",
+    "bolt_xy_m": [
+      [
+        -0.025,
+        -0.02
+      ],
+      [
+        0.025,
+        -0.02
+      ],
+      [
+        0.025,
+        0.02
+      ],
+      [
+        -0.025,
+        0.02
+      ]
+    ],
+    "force_xy_N": [
+      300,
+      -1000
+    ],
+    "load_point_xy_m": [
+      0.12,
+      0
+    ],
+    "free_moment_Nm": 0,
+    "bolt_diameter_m": 0.006,
+    "plate_thickness_m": 0.004,
+    "bolt_shear_strength_Pa": 180000000.0,
+    "plate_bearing_strength_Pa": 200000000.0,
+    "design_factor": 2
+  },
+  "result": {
+    "model": "bolt_group",
+    "centroid_xy_m": [
+      0.0,
+      0.0
+    ],
+    "moment_at_centroid_Nm": -120.0,
+    "sum_radius_squared_m2": 0.0041,
+    "bolts": [
+      {
+        "bolt": 1,
+        "x_m": -0.025,
+        "y_m": -0.02,
+        "force_x_N": -510.3658536585365,
+        "force_y_N": 481.70731707317066,
+        "force_N": 701.7943031276607,
+        "shear_Pa": 24820896.083666485,
+        "bearing_Pa": 29241429.29698586,
+        "shear_utilization": 0.27578773426296094,
+        "bearing_utilization": 0.2924142929698586
+      },
+      {
+        "bolt": 2,
+        "x_m": 0.025,
+        "y_m": -0.02,
+        "force_x_N": -510.3658536585365,
+        "force_y_N": -981.7073170731707,
+        "force_N": 1106.4459141664402,
+        "shear_Pa": 39132519.2229822,
+        "bearing_Pa": 46101913.090268336,
+        "shear_utilization": 0.4348057691442466,
+        "bearing_utilization": 0.46101913090268337
+      },
+      {
+        "bolt": 3,
+        "x_m": 0.025,
+        "y_m": 0.02,
+        "force_x_N": 660.3658536585365,
+        "force_y_N": -981.7073170731707,
+        "force_N": 1183.1450955285115,
+        "shear_Pa": 41845197.85517674,
+        "bearing_Pa": 49297712.31368798,
+        "shear_utilization": 0.46494664283529713,
+        "bearing_utilization": 0.4929771231368798
+      },
+      {
+        "bolt": 4,
+        "x_m": -0.025,
+        "y_m": 0.02,
+        "force_x_N": 660.3658536585365,
+        "force_y_N": 481.70731707317066,
+        "force_N": 817.3891362135906,
+        "shear_Pa": 28909226.990668334,
+        "bearing_Pa": 34057880.67556628,
+        "shear_utilization": 0.32121363322964813,
+        "bearing_utilization": 0.34057880675566277
+      }
+    ],
+    "checks": {
+      "bolt_shear_Pa": {
+        "demand": 41845197.85517674,
+        "allowable": 90000000.0,
+        "utilization": 0.46494664283529713,
+        "margin": 1.150784429589355,
+        "passes": true
+      },
+      "plate_bearing_Pa": {
+        "demand": 49297712.31368798,
+        "allowable": 100000000.0,
+        "utilization": 0.4929771231368798,
+        "margin": 1.0284916947806124,
+        "passes": true
+      }
+    },
+    "passes": true
+  }
+}

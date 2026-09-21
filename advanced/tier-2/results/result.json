@@ -1,0 +1,47 @@
+{
+  "case_name": "Drive shaft under bending and torsion",
+  "inputs": {
+    "name": "Drive shaft under bending and torsion",
+    "model": "shaft",
+    "length_m": 0.4,
+    "diameter_m": 0.025,
+    "bending_moment_Nm": 60,
+    "torque_Nm": 50,
+    "max_twist_rad": 0.017453292519943295,
+    "design_factor": 2,
+    "material": {
+      "name": "illustrative_steel",
+      "E_Pa": 200000000000.0,
+      "yield_Pa": 350000000.0,
+      "density_kg_m3": 7850,
+      "G_Pa": 77000000000.0
+    }
+  },
+  "result": {
+    "model": "shaft",
+    "J_m4": 3.8349519697141036e-08,
+    "bending_stress_Pa": 39113918.81426419,
+    "torsional_shear_Pa": 16297466.17261008,
+    "von_mises_Pa": 48236094.94922821,
+    "twist_rad": 0.006772972954850943,
+    "twist_deg": 0.3880627650692093,
+    "mass_kg": 1.5413438956674925,
+    "checks": {
+      "von_mises_Pa": {
+        "demand": 48236094.94922821,
+        "allowable": 175000000.0,
+        "utilization": 0.2756348282813041,
+        "margin": 2.6279885464235746,
+        "passes": true
+      },
+      "twist_rad": {
+        "demand": 0.006772972954850943,
+        "allowable": 0.017453292519943295,
+        "utilization": 0.3880627650692093,
+        "margin": 1.5769027333030894,
+        "passes": true
+      }
+    },
+    "passes": true
+  }
+}

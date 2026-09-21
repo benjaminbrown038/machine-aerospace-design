@@ -1,0 +1,1160 @@
+{
+  "case_name": "Actuated access-door arm",
+  "inputs": {
+    "name": "Actuated access-door arm",
+    "model": "actuator",
+    "arm_radius_m": 0.06,
+    "anchor_xy_m": [
+      -0.1,
+      0.08
+    ],
+    "start_angle_deg": 10,
+    "stop_angle_deg": 80,
+    "samples": 141,
+    "resisting_moment_Nm": 40,
+    "design_factor": 1.5,
+    "actuator_force_capacity_N": 2500,
+    "available_stroke_m": 0.08
+  },
+  "result": {
+    "model": "actuator",
+    "positions": [
+      {
+        "angle_deg": 10.0,
+        "length_m": 0.17363948436500254,
+        "signed_moment_arm_m": 0.03322381600911347,
+        "signed_actuator_force_N": -1203.9556199392564,
+        "required_capacity_N": 1805.9334299088846,
+        "singular": false
+      },
+      {
+        "angle_deg": 10.5,
+        "length_m": 0.17334819827746362,
+        "signed_moment_arm_m": 0.033533874404367545,
+        "signed_actuator_force_N": -1192.8236957549495,
+        "required_capacity_N": 1789.2355436324242,
+        "singular": false
+      },
+      {
+        "angle_deg": 11.0,
+        "length_m": 0.17305421071374466,
+        "signed_moment_arm_m": 0.03384294683528839,
+        "signed_actuator_force_N": -1181.9301727676852,
+        "required_capacity_N": 1772.8952591515279,
+        "singular": false
+      },
+      {
+        "angle_deg": 11.5,
+        "length_m": 0.17275753032804347,
+        "signed_moment_arm_m": 0.03415102182509871,
+        "signed_actuator_force_N": -1171.268028372805,
+        "required_capacity_N": 1756.9020425592075,
+        "singular": false
+      },
+      {
+        "angle_deg": 12.0,
+        "length_m": 0.1724581658749599,
+        "signed_moment_arm_m": 0.034458087839908176,
+        "signed_actuator_force_N": -1160.8305192626901,
+        "required_capacity_N": 1741.245778894035,
+        "singular": false
+      },
+      {
+        "angle_deg": 12.5,
+        "length_m": 0.1721561262099999,
+        "signed_moment_arm_m": 0.03476413328738492,
+        "signed_actuator_force_N": -1150.6111678186164,
+        "required_capacity_N": 1725.9167517279247,
+        "singular": false
+      },
+      {
+        "angle_deg": 13.0,
+        "length_m": 0.17185142029009165,
+        "signed_moment_arm_m": 0.03506914651539716,
+        "signed_actuator_force_N": -1140.6037492939254,
+        "required_capacity_N": 1710.905623940888,
+        "singular": false
+      },
+      {
+        "angle_deg": 13.5,
+        "length_m": 0.17154405717411322,
+        "signed_moment_arm_m": 0.0353731158106244,
+        "signed_actuator_force_N": -1130.8022797354456,
+        "required_capacity_N": 1696.2034196031684,
+        "singular": false
+      },
+      {
+        "angle_deg": 14.0,
+        "length_m": 0.17123404602343292,
+        "signed_moment_arm_m": 0.03567602939713751,
+        "signed_actuator_force_N": -1121.201004594122,
+        "required_capacity_N": 1681.801506891183,
+        "singular": false
+      },
+      {
+        "angle_deg": 14.5,
+        "length_m": 0.17092139610246185,
+        "signed_moment_arm_m": 0.03597787543494675,
+        "signed_actuator_force_N": -1111.7943879795191,
+        "required_capacity_N": 1667.6915819692786,
+        "singular": false
+      },
+      {
+        "angle_deg": 15.0,
+        "length_m": 0.1706061167792193,
+        "signed_moment_arm_m": 0.036278642018517285,
+        "signed_actuator_force_N": -1102.5771025162205,
+        "required_capacity_N": 1653.865653774331,
+        "singular": false
+      },
+      {
+        "angle_deg": 15.5,
+        "length_m": 0.1702882175259117,
+        "signed_moment_arm_m": 0.03657831717525098,
+        "signed_actuator_force_N": -1093.544019763275,
+        "required_capacity_N": 1640.3160296449123,
+        "singular": false
+      },
+      {
+        "angle_deg": 16.0,
+        "length_m": 0.16996770791952406,
+        "signed_moment_arm_m": 0.03687688886393425,
+        "signed_actuator_force_N": -1084.6902011606562,
+        "required_capacity_N": 1627.0353017409843,
+        "singular": false
+      },
+      {
+        "angle_deg": 16.5,
+        "length_m": 0.16964459764242615,
+        "signed_moment_arm_m": 0.037174344973150496,
+        "signed_actuator_force_N": -1076.0108894693467,
+        "required_capacity_N": 1614.01633420402,
+        "singular": false
+      },
+      {
+        "angle_deg": 17.0,
+        "length_m": 0.169318896482992,
+        "signed_moment_arm_m": 0.037470673319656866,
+        "signed_actuator_force_N": -1067.5015006740289,
+        "required_capacity_N": 1601.2522510110434,
+        "singular": false
+      },
+      {
+        "angle_deg": 17.5,
+        "length_m": 0.16899061433623377,
+        "signed_moment_arm_m": 0.03776586164672417,
+        "signed_actuator_force_N": -1059.1576163195953,
+        "required_capacity_N": 1588.736424479393,
+        "singular": false
+      },
+      {
+        "angle_deg": 18.0,
+        "length_m": 0.16865976120445075,
+        "signed_moment_arm_m": 0.038059897622439096,
+        "signed_actuator_force_N": -1050.9749762547199,
+        "required_capacity_N": 1576.4624643820798,
+        "singular": false
+      },
+      {
+        "angle_deg": 18.5,
+        "length_m": 0.16832634719789266,
+        "signed_moment_arm_m": 0.038352768837967934,
+        "signed_actuator_force_N": -1042.9494717576001,
+        "required_capacity_N": 1564.4242076364003,
+        "singular": false
+      },
+      {
+        "angle_deg": 19.0,
+        "length_m": 0.1679903825354389,
+        "signed_moment_arm_m": 0.03864446280578082,
+        "signed_actuator_force_N": -1035.0771390207137,
+        "required_capacity_N": 1552.6157085310706,
+        "singular": false
+      },
+      {
+        "angle_deg": 19.5,
+        "length_m": 0.16765187754529304,
+        "signed_moment_arm_m": 0.03893496695783558,
+        "signed_actuator_force_N": -1027.3541529730278,
+        "required_capacity_N": 1541.0312294595417,
+        "singular": false
+      },
+      {
+        "angle_deg": 20.0,
+        "length_m": 0.16731084266569363,
+        "signed_moment_arm_m": 0.03922426864372021,
+        "signed_actuator_force_N": -1019.7768214195623,
+        "required_capacity_N": 1529.6652321293436,
+        "singular": false
+      },
+      {
+        "angle_deg": 20.5,
+        "length_m": 0.166967288445641,
+        "signed_moment_arm_m": 0.03951235512875305,
+        "signed_actuator_force_N": -1012.3415794795814,
+        "required_capacity_N": 1518.512369219372,
+        "singular": false
+      },
+      {
+        "angle_deg": 21.0,
+        "length_m": 0.16662122554564152,
+        "signed_moment_arm_m": 0.03979921359203947,
+        "signed_actuator_force_N": -1005.0449843059383,
+        "required_capacity_N": 1507.5674764589075,
+        "singular": false
+      },
+      {
+        "angle_deg": 21.5,
+        "length_m": 0.1662726647384682,
+        "signed_moment_arm_m": 0.040084831124484355,
+        "signed_actuator_force_N": -997.8837100692551,
+        "required_capacity_N": 1496.8255651038826,
+        "singular": false
+      },
+      {
+        "angle_deg": 22.0,
+        "length_m": 0.16592161690993942,
+        "signed_moment_arm_m": 0.04036919472675899,
+        "signed_actuator_force_N": -990.8545431917108,
+        "required_capacity_N": 1486.2818147875662,
+        "singular": false
+      },
+      {
+        "angle_deg": 22.5,
+        "length_m": 0.16556809305971537,
+        "signed_moment_arm_m": 0.04065229130722155,
+        "signed_actuator_force_N": -983.9543778161977,
+        "required_capacity_N": 1475.9315667242965,
+        "singular": false
+      },
+      {
+        "angle_deg": 23.0,
+        "length_m": 0.165212104302113,
+        "signed_moment_arm_m": 0.0409341076797898,
+        "signed_actuator_force_N": -977.1802114975383,
+        "required_capacity_N": 1465.7703172463075,
+        "singular": false
+      },
+      {
+        "angle_deg": 23.5,
+        "length_m": 0.16485366186693923,
+        "signed_moment_arm_m": 0.041214630561765275,
+        "signed_actuator_force_N": -970.5291411033031,
+        "required_capacity_N": 1455.7937116549547,
+        "singular": false
+      },
+      {
+        "angle_deg": 24.0,
+        "length_m": 0.16449277710034424,
+        "signed_moment_arm_m": 0.04149384657160732,
+        "signed_actuator_force_N": -963.9983589125839,
+        "required_capacity_N": 1445.9975383688757,
+        "singular": false
+      },
+      {
+        "angle_deg": 24.5,
+        "length_m": 0.16412946146569368,
+        "signed_moment_arm_m": 0.0417717422266561,
+        "signed_actuator_force_N": -957.585148901798,
+        "required_capacity_N": 1436.377723352697,
+        "singular": false
+      },
+      {
+        "angle_deg": 25.0,
+        "length_m": 0.16376372654446125,
+        "signed_moment_arm_m": 0.042048303940803375,
+        "signed_actuator_force_N": -951.2868832072983,
+        "required_capacity_N": 1426.9303248109475,
+        "singular": false
+      },
+      {
+        "angle_deg": 25.5,
+        "length_m": 0.16339558403714188,
+        "signed_moment_arm_m": 0.042323518022109624,
+        "signed_actuator_force_N": -945.101018755203,
+        "required_capacity_N": 1417.6515281328045,
+        "singular": false
+      },
+      {
+        "angle_deg": 26.0,
+        "length_m": 0.16302504576418575,
+        "signed_moment_arm_m": 0.042597370670366404,
+        "signed_actuator_force_N": -939.0250940494477,
+        "required_capacity_N": 1408.5376410741715,
+        "singular": false
+      },
+      {
+        "angle_deg": 26.5,
+        "length_m": 0.16265212366695414,
+        "signed_moment_arm_m": 0.042869847974602526,
+        "signed_actuator_force_N": -933.0567261096256,
+        "required_capacity_N": 1399.5850891644384,
+        "singular": false
+      },
+      {
+        "angle_deg": 27.0,
+        "length_m": 0.16227682980869687,
+        "signed_moment_arm_m": 0.04314093591053291,
+        "signed_actuator_force_N": -927.1936075506871,
+        "required_capacity_N": 1390.7904113260306,
+        "singular": false
+      },
+      {
+        "angle_deg": 27.5,
+        "length_m": 0.16189917637555273,
+        "signed_moment_arm_m": 0.043410620337948416,
+        "signed_actuator_force_N": -921.4335037970664,
+        "required_capacity_N": 1382.1502556955995,
+        "singular": false
+      },
+      {
+        "angle_deg": 28.0,
+        "length_m": 0.16151917567757265,
+        "signed_moment_arm_m": 0.04367888699804574,
+        "signed_actuator_force_N": -915.7742504242303,
+        "required_capacity_N": 1373.6613756363454,
+        "singular": false
+      },
+      {
+        "angle_deg": 28.5,
+        "length_m": 0.1611368401497663,
+        "signed_moment_arm_m": 0.04394572151069547,
+        "signed_actuator_force_N": -910.2137506210892,
+        "required_capacity_N": 1365.3206259316337,
+        "singular": false
+      },
+      {
+        "angle_deg": 29.0,
+        "length_m": 0.1607521823531734,
+        "signed_moment_arm_m": 0.04421110937164719,
+        "signed_actuator_force_N": -904.7499727670756,
+        "required_capacity_N": 1357.1249591506134,
+        "singular": false
+      },
+      {
+        "angle_deg": 29.5,
+        "length_m": 0.16036521497595888,
+        "signed_moment_arm_m": 0.04447503594966995,
+        "signed_actuator_force_N": -899.3809481180833,
+        "required_capacity_N": 1349.071422177125,
+        "singular": false
+      },
+      {
+        "angle_deg": 30.0,
+        "length_m": 0.1599759508345341,
+        "signed_moment_arm_m": 0.04473748648362674,
+        "signed_actuator_force_N": -894.1047685957817,
+        "required_capacity_N": 1341.1571528936724,
+        "singular": false
+      },
+      {
+        "angle_deg": 30.5,
+        "length_m": 0.1595844028747031,
+        "signed_moment_arm_m": 0.0449984460794813,
+        "signed_actuator_force_N": -888.9195846751578,
+        "required_capacity_N": 1333.3793770127368,
+        "singular": false
+      },
+      {
+        "angle_deg": 31.0,
+        "length_m": 0.15919058417283613,
+        "signed_moment_arm_m": 0.045257899707235594,
+        "signed_actuator_force_N": -883.8236033654256,
+        "required_capacity_N": 1325.7354050481383,
+        "singular": false
+      },
+      {
+        "angle_deg": 31.5,
+        "length_m": 0.15879450793706942,
+        "signed_moment_arm_m": 0.045515832197796625,
+        "signed_actuator_force_N": -878.8150862797222,
+        "required_capacity_N": 1318.2226294195834,
+        "singular": false
+      },
+      {
+        "angle_deg": 32.0,
+        "length_m": 0.15839618750853302,
+        "signed_moment_arm_m": 0.045772228239770604,
+        "signed_actuator_force_N": -873.8923477892819,
+        "required_capacity_N": 1310.8385216839229,
+        "singular": false
+      },
+      {
+        "angle_deg": 32.5,
+        "length_m": 0.15799563636260697,
+        "signed_moment_arm_m": 0.04602707237618296,
+        "signed_actuator_force_N": -869.0537532580126,
+        "required_capacity_N": 1303.5806298870189,
+        "singular": false
+      },
+      {
+        "angle_deg": 33.0,
+        "length_m": 0.15759286811020615,
+        "signed_moment_arm_m": 0.046280349001122434,
+        "signed_actuator_force_N": -864.2977173536415,
+        "required_capacity_N": 1296.4465760304622,
+        "singular": false
+      },
+      {
+        "angle_deg": 33.5,
+        "length_m": 0.1571878964990952,
+        "signed_moment_arm_m": 0.04653204235630737,
+        "signed_actuator_force_N": -859.6227024318017,
+        "required_capacity_N": 1289.4340536477025,
+        "singular": false
+      },
+      {
+        "angle_deg": 34.0,
+        "length_m": 0.15678073541523313,
+        "signed_moment_arm_m": 0.046782136527572654,
+        "signed_actuator_force_N": -855.0272169896436,
+        "required_capacity_N": 1282.5408254844656,
+        "singular": false
+      },
+      {
+        "angle_deg": 34.5,
+        "length_m": 0.1563713988841495,
+        "signed_moment_arm_m": 0.04703061544127512,
+        "signed_actuator_force_N": -850.5098141857422,
+        "required_capacity_N": 1275.7647212786133,
+        "singular": false
+      },
+      {
+        "angle_deg": 35.0,
+        "length_m": 0.1559599010723521,
+        "signed_moment_arm_m": 0.04727746286061577,
+        "signed_actuator_force_N": -846.0690904232464,
+        "required_capacity_N": 1269.1036356348695,
+        "singular": false
+      },
+      {
+        "angle_deg": 35.5,
+        "length_m": 0.15554625628876706,
+        "signed_moment_arm_m": 0.04752266238187688,
+        "signed_actuator_force_N": -841.703683993393,
+        "required_capacity_N": 1262.5555259900896,
+        "singular": false
+      },
+      {
+        "angle_deg": 36.0,
+        "length_m": 0.1551304789862122,
+        "signed_moment_arm_m": 0.047766197430571825,
+        "signed_actuator_force_N": -837.4122737766598,
+        "required_capacity_N": 1256.1184106649898,
+        "singular": false
+      },
+      {
+        "angle_deg": 36.5,
+        "length_m": 0.15471258376290448,
+        "signed_moment_arm_m": 0.04800805125750589,
+        "signed_actuator_force_N": -833.193577998985,
+        "required_capacity_N": 1249.7903669984776,
+        "singular": false
+      },
+      {
+        "angle_deg": 37.0,
+        "length_m": 0.154292585364002,
+        "signed_moment_arm_m": 0.04824820693474576,
+        "signed_actuator_force_N": -829.0463530406174,
+        "required_capacity_N": 1243.5695295609262,
+        "singular": false
+      },
+      {
+        "angle_deg": 37.5,
+        "length_m": 0.15387049868318195,
+        "signed_moment_arm_m": 0.04848664735149587,
+        "signed_actuator_force_N": -824.9693922952987,
+        "required_capacity_N": 1237.454088442948,
+        "singular": false
+      },
+      {
+        "angle_deg": 38.0,
+        "length_m": 0.15344633876425448,
+        "signed_moment_arm_m": 0.048723355209879124,
+        "signed_actuator_force_N": -820.9615250776002,
+        "required_capacity_N": 1231.4422876164003,
+        "singular": false
+      },
+      {
+        "angle_deg": 38.5,
+        "length_m": 0.15302012080281407,
+        "signed_moment_arm_m": 0.04895831302062031,
+        "signed_actuator_force_N": -817.0216155763529,
+        "required_capacity_N": 1225.5324233645294,
+        "singular": false
+      },
+      {
+        "angle_deg": 39.0,
+        "length_m": 0.1525918601479293,
+        "signed_moment_arm_m": 0.04919150309862937,
+        "signed_actuator_force_N": -813.1485618522302,
+        "required_capacity_N": 1219.7228427783452,
+        "singular": false
+      },
+      {
+        "angle_deg": 39.5,
+        "length_m": 0.15216157230387084,
+        "signed_moment_arm_m": 0.04942290755848303,
+        "signed_actuator_force_N": -809.3412948776287,
+        "required_capacity_N": 1214.011942316443,
+        "singular": false
+      },
+      {
+        "angle_deg": 40.0,
+        "length_m": 0.1517292729318801,
+        "signed_moment_arm_m": 0.049652508309801585,
+        "signed_actuator_force_N": -805.598777617119,
+        "required_capacity_N": 1208.3981664256785,
+        "singular": false
+      },
+      {
+        "angle_deg": 40.5,
+        "length_m": 0.15129497785197832,
+        "signed_moment_arm_m": 0.04988028705251945,
+        "signed_actuator_force_N": -801.9200041468006,
+        "required_capacity_N": 1202.8800062202008,
+        "singular": false
+      },
+      {
+        "angle_deg": 41.0,
+        "length_m": 0.15085870304481738,
+        "signed_moment_arm_m": 0.05010622527204625,
+        "signed_actuator_force_N": -798.3039988110138,
+        "required_capacity_N": 1197.4559982165206,
+        "singular": false
+      },
+      {
+        "angle_deg": 41.5,
+        "length_m": 0.15042046465357348,
+        "signed_moment_arm_m": 0.05033030423431671,
+        "signed_actuator_force_N": -794.7498154149206,
+        "required_capacity_N": 1192.1247231223808,
+        "singular": false
+      },
+      {
+        "angle_deg": 42.0,
+        "length_m": 0.14998027898588429,
+        "signed_moment_arm_m": 0.05055250498072634,
+        "signed_actuator_force_N": -791.2565364515648,
+        "required_capacity_N": 1186.8848046773471,
+        "singular": false
+      },
+      {
+        "angle_deg": 42.5,
+        "length_m": 0.1495381625158312,
+        "signed_moment_arm_m": 0.050772808322950745,
+        "signed_actuator_force_N": -787.8232723620857,
+        "required_capacity_N": 1181.7349085431285,
+        "singular": false
+      },
+      {
+        "angle_deg": 43.0,
+        "length_m": 0.14909413188596682,
+        "signed_moment_arm_m": 0.05099119483764591,
+        "signed_actuator_force_N": -784.4491608278357,
+        "required_capacity_N": 1176.6737412417535,
+        "singular": false
+      },
+      {
+        "angle_deg": 43.5,
+        "length_m": 0.14864820390938943,
+        "signed_moment_arm_m": 0.05120764486102677,
+        "signed_actuator_force_N": -781.1333660932197,
+        "required_capacity_N": 1171.7000491398296,
+        "singular": false
+      },
+      {
+        "angle_deg": 44.0,
+        "length_m": 0.1482003955718656,
+        "signed_moment_arm_m": 0.05142213848332157,
+        "signed_actuator_force_N": -777.8750783181399,
+        "required_capacity_N": 1166.8126174772099,
+        "singular": false
+      },
+      {
+        "angle_deg": 44.5,
+        "length_m": 0.1477507240340013,
+        "signed_moment_arm_m": 0.051634655543099275,
+        "signed_actuator_force_N": -774.673512958988,
+        "required_capacity_N": 1162.010269438482,
+        "singular": false
+      },
+      {
+        "angle_deg": 45.0,
+        "length_m": 0.1472992066334633,
+        "signed_moment_arm_m": 0.05184517562146735,
+        "signed_actuator_force_N": -771.527910177188,
+        "required_capacity_N": 1157.291865265782,
+        "singular": false
+      },
+      {
+        "angle_deg": 45.5,
+        "length_m": 0.14684586088725168,
+        "signed_moment_arm_m": 0.05205367803613708,
+        "signed_actuator_force_N": -768.4375342743488,
+        "required_capacity_N": 1152.6563014115231,
+        "singular": false
+      },
+      {
+        "angle_deg": 46.0,
+        "length_m": 0.1463907044940249,
+        "signed_moment_arm_m": 0.052260141835353706,
+        "signed_actuator_force_N": -765.4016731531374,
+        "required_capacity_N": 1148.102509729706,
+        "singular": false
+      },
+      {
+        "angle_deg": 46.5,
+        "length_m": 0.1459337553364782,
+        "signed_moment_arm_m": 0.05246454579168861,
+        "signed_actuator_force_N": -762.4196378030355,
+        "required_capacity_N": 1143.6294567045531,
+        "singular": false
+      },
+      {
+        "angle_deg": 47.0,
+        "length_m": 0.1454750314837771,
+        "signed_moment_arm_m": 0.05266686839569046,
+        "signed_actuator_force_N": -759.4907618101906,
+        "required_capacity_N": 1139.236142715286,
+        "singular": false
+      },
+      {
+        "angle_deg": 47.5,
+        "length_m": 0.1450145511940465,
+        "signed_moment_arm_m": 0.052867087849392716,
+        "signed_actuator_force_N": -756.6144008906191,
+        "required_capacity_N": 1134.9216013359287,
+        "singular": false
+      },
+      {
+        "angle_deg": 48.0,
+        "length_m": 0.14455233291691735,
+        "signed_moment_arm_m": 0.05306518205967441,
+        "signed_actuator_force_N": -753.789932446063,
+        "required_capacity_N": 1130.6848986690943,
+        "singular": false
+      },
+      {
+        "angle_deg": 48.5,
+        "length_m": 0.14408839529613213,
+        "signed_moment_arm_m": 0.05326112863147112,
+        "signed_actuator_force_N": -751.0167551418476,
+        "required_capacity_N": 1126.5251327127714,
+        "singular": false
+      },
+      {
+        "angle_deg": 49.0,
+        "length_m": 0.14362275717220957,
+        "signed_moment_arm_m": 0.05345490486083358,
+        "signed_actuator_force_N": -748.2942885061237,
+        "required_capacity_N": 1122.4414327591855,
+        "singular": false
+      },
+      {
+        "angle_deg": 49.5,
+        "length_m": 0.1431554375851714,
+        "signed_moment_arm_m": 0.05364648772783025,
+        "signed_actuator_force_N": -745.6219725499225,
+        "required_capacity_N": 1118.4329588248838,
+        "singular": false
+      },
+      {
+        "angle_deg": 50.0,
+        "length_m": 0.14268645577733116,
+        "signed_moment_arm_m": 0.053835853889291525,
+        "signed_actuator_force_N": -742.9992674074849,
+        "required_capacity_N": 1114.4989011112275,
+        "singular": false
+      },
+      {
+        "angle_deg": 50.5,
+        "length_m": 0.1422158311961473,
+        "signed_moment_arm_m": 0.054022979671392045,
+        "signed_actuator_force_N": -740.4256529963686,
+        "required_capacity_N": 1110.638479494553,
+        "singular": false
+      },
+      {
+        "angle_deg": 51.0,
+        "length_m": 0.14174358349714153,
+        "signed_moment_arm_m": 0.054207841062068225,
+        "signed_actuator_force_N": -737.9006286968672,
+        "required_capacity_N": 1106.850943045301,
+        "singular": false
+      },
+      {
+        "angle_deg": 51.5,
+        "length_m": 0.14126973254688444,
+        "signed_moment_arm_m": 0.054390413703267915,
+        "signed_actuator_force_N": -735.4237130503145,
+        "required_capacity_N": 1103.135569575472,
+        "singular": false
+      },
+      {
+        "angle_deg": 52.0,
+        "length_m": 0.14079429842604907,
+        "signed_moment_arm_m": 0.054570672883029026,
+        "signed_actuator_force_N": -732.9944434758771,
+        "required_capacity_N": 1099.4916652138156,
+        "singular": false
+      },
+      {
+        "angle_deg": 52.5,
+        "length_m": 0.14031730143253465,
+        "signed_moment_arm_m": 0.05474859352738409,
+        "signed_actuator_force_N": -730.6123760054738,
+        "required_capacity_N": 1095.9185640082108,
+        "singular": false
+      },
+      {
+        "angle_deg": 53.0,
+        "length_m": 0.1398387620846615,
+        "signed_moment_arm_m": 0.05492415019208785,
+        "signed_actuator_force_N": -728.277085036488,
+        "required_capacity_N": 1092.415627554732,
+        "singular": false
+      },
+      {
+        "angle_deg": 53.5,
+        "length_m": 0.13935870112443935,
+        "signed_moment_arm_m": 0.05509731705416419,
+        "signed_actuator_force_N": -725.988163101979,
+        "required_capacity_N": 1088.9822446529686,
+        "singular": false
+      },
+      {
+        "angle_deg": 54.0,
+        "length_m": 0.13887713952090955,
+        "signed_moment_arm_m": 0.05526806790327018,
+        "signed_actuator_force_N": -723.7452206581157,
+        "required_capacity_N": 1085.6178309871736,
+        "singular": false
+      },
+      {
+        "angle_deg": 54.5,
+        "length_m": 0.13839409847356432,
+        "signed_moment_arm_m": 0.05543637613287336,
+        "signed_actuator_force_N": -721.5478858885997,
+        "required_capacity_N": 1082.3218288328994,
+        "singular": false
+      },
+      {
+        "angle_deg": 55.0,
+        "length_m": 0.13790959941584283,
+        "signed_moment_arm_m": 0.05560221473123993,
+        "signed_actuator_force_N": -719.3958045258605,
+        "required_capacity_N": 1079.0937067887908,
+        "singular": false
+      },
+      {
+        "angle_deg": 55.5,
+        "length_m": 0.13742366401870765,
+        "signed_moment_arm_m": 0.055765556272230156,
+        "signed_actuator_force_N": -717.2886396888503,
+        "required_capacity_N": 1075.9329595332754,
+        "singular": false
+      },
+      {
+        "angle_deg": 56.0,
+        "length_m": 0.13693631419430188,
+        "signed_moment_arm_m": 0.05592637290589869,
+        "signed_actuator_force_N": -715.2260717372769,
+        "required_capacity_N": 1072.8391076059154,
+        "singular": false
+      },
+      {
+        "angle_deg": 56.5,
+        "length_m": 0.1364475720996892,
+        "signed_moment_arm_m": 0.056084636348896384,
+        "signed_actuator_force_N": -713.2077981421575,
+        "required_capacity_N": 1069.8116972132361,
+        "singular": false
+      },
+      {
+        "angle_deg": 57.0,
+        "length_m": 0.13595746014067878,
+        "signed_moment_arm_m": 0.05624031787467092,
+        "signed_actuator_force_N": -711.2335333725931,
+        "required_capacity_N": 1066.8503000588896,
+        "singular": false
+      },
+      {
+        "angle_deg": 57.5,
+        "length_m": 0.1354660009757363,
+        "signed_moment_arm_m": 0.05639338830346354,
+        "signed_actuator_force_N": -709.3030087986981,
+        "required_capacity_N": 1063.9545131980472,
+        "singular": false
+      },
+      {
+        "angle_deg": 58.0,
+        "length_m": 0.13497321751998345,
+        "signed_moment_arm_m": 0.05654381799209905,
+        "signed_actuator_force_N": -707.4159726106443,
+        "required_capacity_N": 1061.1239589159663,
+        "singular": false
+      },
+      {
+        "angle_deg": 58.5,
+        "length_m": 0.13447913294928734,
+        "signed_moment_arm_m": 0.05669157682356629,
+        "signed_actuator_force_N": -705.5721897538098,
+        "required_capacity_N": 1058.3582846307147,
+        "singular": false
+      },
+      {
+        "angle_deg": 59.0,
+        "length_m": 0.13398377070444156,
+        "signed_moment_arm_m": 0.05683663419638697,
+        "signed_actuator_force_N": -703.7714418800462,
+        "required_capacity_N": 1055.6571628200693,
+        "singular": false
+      },
+      {
+        "angle_deg": 59.5,
+        "length_m": 0.13348715449544124,
+        "signed_moment_arm_m": 0.05697895901377003,
+        "signed_actuator_force_N": -702.0135273151138,
+        "required_capacity_N": 1053.0202909726709,
+        "singular": false
+      },
+      {
+        "angle_deg": 60.0,
+        "length_m": 0.13298930830585362,
+        "signed_moment_arm_m": 0.057118519672549356,
+        "signed_actuator_force_N": -700.2982610423575,
+        "required_capacity_N": 1050.4473915635363,
+        "singular": false
+      },
+      {
+        "angle_deg": 60.5,
+        "length_m": 0.13249025639728593,
+        "signed_moment_arm_m": 0.05725528405190281,
+        "signed_actuator_force_N": -698.6254747027257,
+        "required_capacity_N": 1047.9382120540886,
+        "singular": false
+      },
+      {
+        "angle_deg": 61.0,
+        "length_m": 0.13199002331395296,
+        "signed_moment_arm_m": 0.057389219501850365,
+        "signed_actuator_force_N": -696.9950166112698,
+        "required_capacity_N": 1045.4925249169046,
+        "singular": false
+      },
+      {
+        "angle_deg": 61.5,
+        "length_m": 0.1314886338873457,
+        "signed_moment_arm_m": 0.05752029283152962,
+        "signed_actuator_force_N": -695.4067517902846,
+        "required_capacity_N": 1043.110127685427,
+        "singular": false
+      },
+      {
+        "angle_deg": 62.0,
+        "length_m": 0.1309861132410035,
+        "signed_moment_arm_m": 0.05764847029724711,
+        "signed_actuator_force_N": -693.8605620192861,
+        "required_capacity_N": 1040.7908430289292,
+        "singular": false
+      },
+      {
+        "angle_deg": 62.5,
+        "length_m": 0.13048248679539134,
+        "signed_moment_arm_m": 0.05777371759030387,
+        "signed_actuator_force_N": -692.3563459020538,
+        "required_capacity_N": 1038.5345188530807,
+        "singular": false
+      },
+      {
+        "angle_deg": 63.0,
+        "length_m": 0.12997778027288448,
+        "signed_moment_arm_m": 0.057895999824593966,
+        "signed_actuator_force_N": -690.894018950998,
+        "required_capacity_N": 1036.341028426497,
+        "singular": false
+      },
+      {
+        "angle_deg": 63.5,
+        "length_m": 0.1294720197028619,
+        "signed_moment_arm_m": 0.05801528152397547,
+        "signed_actuator_force_N": -689.4735136891398,
+        "required_capacity_N": 1034.2102705337097,
+        "singular": false
+      },
+      {
+        "angle_deg": 64.0,
+        "length_m": 0.12896523142691185,
+        "signed_moment_arm_m": 0.058131526609412544,
+        "signed_actuator_force_N": -688.094779770041,
+        "required_capacity_N": 1032.1421696550615,
+        "singular": false
+      },
+      {
+        "angle_deg": 64.5,
+        "length_m": 0.12845744210414936,
+        "signed_moment_arm_m": 0.05824469838588902,
+        "signed_actuator_force_N": -686.757784116036,
+        "required_capacity_N": 1030.136676174054,
+        "singular": false
+      },
+      {
+        "angle_deg": 65.0,
+        "length_m": 0.12794867871665014,
+        "signed_moment_arm_m": 0.05835475952909268,
+        "signed_actuator_force_N": -685.4625110751773,
+        "required_capacity_N": 1028.193766612766,
+        "singular": false
+      },
+      {
+        "angle_deg": 65.5,
+        "length_m": 0.12743896857500087,
+        "signed_moment_arm_m": 0.05846167207187126,
+        "signed_actuator_force_N": -684.2089625973243,
+        "required_capacity_N": 1026.3134438959864,
+        "singular": false
+      },
+      {
+        "angle_deg": 66.0,
+        "length_m": 0.12692833932396905,
+        "signed_moment_arm_m": 0.05856539739046038,
+        "signed_actuator_force_N": -682.9971584298604,
+        "required_capacity_N": 1024.4957376447906,
+        "singular": false
+      },
+      {
+        "angle_deg": 66.5,
+        "length_m": 0.12641681894829407,
+        "signed_moment_arm_m": 0.058665896190484755,
+        "signed_actuator_force_N": -681.8271363335579,
+        "required_capacity_N": 1022.7407045003367,
+        "singular": false
+      },
+      {
+        "angle_deg": 67.0,
+        "length_m": 0.12590443577860097,
+        "signed_moment_arm_m": 0.0587631284927344,
+        "signed_actuator_force_N": -680.6989523191518,
+        "required_capacity_N": 1021.0484284787276,
+        "singular": false
+      },
+      {
+        "angle_deg": 67.5,
+        "length_m": 0.12539121849743998,
+        "signed_moment_arm_m": 0.05885705361871754,
+        "signed_actuator_force_N": -679.6126809052386,
+        "required_capacity_N": 1019.4190213578579,
+        "singular": false
+      },
+      {
+        "angle_deg": 68.0,
+        "length_m": 0.12487719614545237,
+        "signed_moment_arm_m": 0.058947630175993304,
+        "signed_actuator_force_N": -678.5684153981509,
+        "required_capacity_N": 1017.8526230972263,
+        "singular": false
+      },
+      {
+        "angle_deg": 68.5,
+        "length_m": 0.12436239812766613,
+        "signed_moment_arm_m": 0.05903481604328688,
+        "signed_actuator_force_N": -677.5662681945222,
+        "required_capacity_N": 1016.3494022917832,
+        "singular": false
+      },
+      {
+        "angle_deg": 69.0,
+        "length_m": 0.1238468542199214,
+        "signed_moment_arm_m": 0.059118568355391685,
+        "signed_actuator_force_N": -676.6063711072927,
+        "required_capacity_N": 1014.9095566609391,
+        "singular": false
+      },
+      {
+        "angle_deg": 69.5,
+        "length_m": 0.12333059457542962,
+        "signed_moment_arm_m": 0.05919884348786207,
+        "signed_actuator_force_N": -675.6888757159836,
+        "required_capacity_N": 1013.5333135739754,
+        "singular": false
+      },
+      {
+        "angle_deg": 70.0,
+        "length_m": 0.12281364973146637,
+        "signed_moment_arm_m": 0.059275597041502724,
+        "signed_actuator_force_N": -674.8139537421004,
+        "required_capacity_N": 1012.2209306131506,
+        "singular": false
+      },
+      {
+        "angle_deg": 70.5,
+        "length_m": 0.12229605061620077,
+        "signed_moment_arm_m": 0.05934878382666001,
+        "signed_actuator_force_N": -673.9817974506099,
+        "required_capacity_N": 1010.9726961759147,
+        "singular": false
+      },
+      {
+        "angle_deg": 71.0,
+        "length_m": 0.12177782855566295,
+        "signed_moment_arm_m": 0.059418357847322356,
+        "signed_actuator_force_N": -673.1926200784859,
+        "required_capacity_N": 1009.7889301177288,
+        "singular": false
+      },
+      {
+        "angle_deg": 71.5,
+        "length_m": 0.12125901528085073,
+        "signed_moment_arm_m": 0.05948427228503742,
+        "signed_actuator_force_N": -672.4466562913898,
+        "required_capacity_N": 1008.6699844370846,
+        "singular": false
+      },
+      {
+        "angle_deg": 72.0,
+        "length_m": 0.12073964293497766,
+        "signed_moment_arm_m": 0.05954647948265444,
+        "signed_actuator_force_N": -671.7441626696299,
+        "required_capacity_N": 1007.6162440044448,
+        "singular": false
+      },
+      {
+        "angle_deg": 72.5,
+        "length_m": 0.12021974408086344,
+        "signed_moment_arm_m": 0.059604930927901596,
+        "signed_actuator_force_N": -671.0854182246128,
+        "required_capacity_N": 1006.6281273369192,
+        "singular": false
+      },
+      {
+        "angle_deg": 73.0,
+        "length_m": 0.11969935170846875,
+        "signed_moment_arm_m": 0.05965957723680893,
+        "signed_actuator_force_N": -670.4707249470868,
+        "required_capacity_N": 1005.7060874206302,
+        "singular": false
+      },
+      {
+        "angle_deg": 73.5,
+        "length_m": 0.1191784992425749,
+        "signed_moment_arm_m": 0.059710368136988795,
+        "signed_actuator_force_N": -669.9004083885591,
+        "required_capacity_N": 1004.8506125828386,
+        "singular": false
+      },
+      {
+        "angle_deg": 74.0,
+        "length_m": 0.11865722055061012,
+        "signed_moment_arm_m": 0.059757252450786905,
+        "signed_actuator_force_N": -669.3748182773631,
+        "required_capacity_N": 1004.0622274160447,
+        "singular": false
+      },
+      {
+        "angle_deg": 74.5,
+        "length_m": 0.11813554995062368,
+        "signed_moment_arm_m": 0.05980017807831837,
+        "signed_actuator_force_N": -668.894329170948,
+        "required_capacity_N": 1003.3414937564221,
+        "singular": false
+      },
+      {
+        "angle_deg": 75.0,
+        "length_m": 0.11761352221940806,
+        "signed_moment_arm_m": 0.059839091980404525,
+        "signed_actuator_force_N": -668.4593411460652,
+        "required_capacity_N": 1002.6890117190978,
+        "singular": false
+      },
+      {
+        "angle_deg": 75.5,
+        "length_m": 0.11709117260077065,
+        "signed_moment_arm_m": 0.059873940161427885,
+        "signed_actuator_force_N": -668.0702805286378,
+        "required_capacity_N": 1002.1054207929567,
+        "singular": false
+      },
+      {
+        "angle_deg": 76.0,
+        "length_m": 0.11656853681395528,
+        "signed_moment_arm_m": 0.0599046676521241,
+        "signed_actuator_force_N": -667.727600665216,
+        "required_capacity_N": 1001.5914009978239,
+        "singular": false
+      },
+      {
+        "angle_deg": 76.5,
+        "length_m": 0.11604565106221419,
+        "signed_moment_arm_m": 0.05993121849233138,
+        "signed_actuator_force_N": -667.4317827380446,
+        "required_capacity_N": 1001.1476741070669,
+        "singular": false
+      },
+      {
+        "angle_deg": 77.0,
+        "length_m": 0.11552255204153049,
+        "signed_moment_arm_m": 0.05995353571371989,
+        "signed_actuator_force_N": -667.1833366259051,
+        "required_capacity_N": 1000.7750049388576,
+        "singular": false
+      },
+      {
+        "angle_deg": 77.5,
+        "length_m": 0.11499927694949162,
+        "signed_moment_arm_m": 0.05997156132252519,
+        "signed_actuator_force_N": -666.9828018130335,
+        "required_capacity_N": 1000.4742027195502,
+        "singular": false
+      },
+      {
+        "angle_deg": 78.0,
+        "length_m": 0.11447586349431298,
+        "signed_moment_arm_m": 0.05998523628231218,
+        "signed_actuator_force_N": -666.8307483485696,
+        "required_capacity_N": 1000.2461225228544,
+        "singular": false
+      },
+      {
+        "angle_deg": 78.5,
+        "length_m": 0.11395234990401208,
+        "signed_moment_arm_m": 0.059994500496797755,
+        "signed_actuator_force_N": -666.727777859156,
+        "required_capacity_N": 1000.0916667887341,
+        "singular": false
+      },
+      {
+        "angle_deg": 79.0,
+        "length_m": 0.11342877493573209,
+        "signed_moment_arm_m": 0.05999929279276294,
+        "signed_actuator_force_N": -666.6745246174762,
+        "required_capacity_N": 1000.0117869262143,
+        "singular": false
+      },
+      {
+        "angle_deg": 79.5,
+        "length_m": 0.11290517788521398,
+        "signed_moment_arm_m": 0.059999550903087416,
+        "signed_actuator_force_N": -666.671656669712,
+        "required_capacity_N": 1000.007485004568,
+        "singular": false
+      },
+      {
+        "angle_deg": 80.0,
+        "length_m": 0.11238159859641599,
+        "signed_moment_arm_m": 0.05999521144994228,
+        "signed_actuator_force_N": -666.7198770250935,
+        "required_capacity_N": 1000.0798155376403,
+        "singular": false
+      }
+    ],
+    "singular": false,
+    "min_length_m": 0.11238159859641599,
+    "max_length_m": 0.17363948436500254,
+    "stroke_m": 0.061257885768586554,
+    "required_capacity_N": 1805.9334299088846,
+    "force_capacity_N": 2500,
+    "available_stroke_m": 0.08,
+    "passes": true
+  }
+}
