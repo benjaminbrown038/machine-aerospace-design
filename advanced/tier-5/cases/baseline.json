@@ -1,0 +1,39 @@
+{
+  "name": "Lightweight equipment-support sizing",
+  "model": "optimize_bracket",
+  "length_m": 0.15,
+  "tip_force_N": 250,
+  "max_deflection_m": 0.001,
+  "max_mass_kg": 0.3,
+  "design_factor": 2,
+  "widths_m": [
+    0.02,
+    0.025,
+    0.03,
+    0.035,
+    0.04
+  ],
+  "heights_m": [
+    0.004,
+    0.006,
+    0.008,
+    0.01,
+    0.012,
+    0.014
+  ],
+  "materials": [
+    {
+      "name": "illustrative_aluminum",
+      "E_Pa": 69000000000.0,
+      "yield_Pa": 250000000.0,
+      "density_kg_m3": 2700
+    },
+    {
+      "name": "illustrative_steel",
+      "E_Pa": 200000000000.0,
+      "yield_Pa": 350000000.0,
+      "density_kg_m3": 7850,
+      "G_Pa": 77000000000.0
+    }
+  ]
+}

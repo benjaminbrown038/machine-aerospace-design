@@ -1,0 +1,16 @@
+{
+  "name": "Actuated access-door arm",
+  "model": "actuator",
+  "arm_radius_m": 0.06,
+  "anchor_xy_m": [
+    -0.1,
+    0.08
+  ],
+  "start_angle_deg": 10,
+  "stop_angle_deg": 80,
+  "samples": 141,
+  "resisting_moment_Nm": 40,
+  "design_factor": 1.5,
+  "actuator_force_capacity_N": 2500,
+  "available_stroke_m": 0.08
+}

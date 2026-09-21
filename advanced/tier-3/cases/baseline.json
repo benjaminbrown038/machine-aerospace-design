@@ -1,0 +1,36 @@
+{
+  "name": "Eccentrically loaded four-bolt equipment mount",
+  "model": "bolt_group",
+  "bolt_xy_m": [
+    [
+      -0.025,
+      -0.02
+    ],
+    [
+      0.025,
+      -0.02
+    ],
+    [
+      0.025,
+      0.02
+    ],
+    [
+      -0.025,
+      0.02
+    ]
+  ],
+  "force_xy_N": [
+    300,
+    -1000
+  ],
+  "load_point_xy_m": [
+    0.12,
+    0
+  ],
+  "free_moment_Nm": 0,
+  "bolt_diameter_m": 0.006,
+  "plate_thickness_m": 0.004,
+  "bolt_shear_strength_Pa": 180000000.0,
+  "plate_bearing_strength_Pa": 200000000.0,
+  "design_factor": 2
+}

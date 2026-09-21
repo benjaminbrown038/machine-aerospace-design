@@ -1,0 +1,16 @@
+{
+  "name": "Cantilever equipment support",
+  "model": "cantilever",
+  "length_m": 0.15,
+  "width_m": 0.03,
+  "height_m": 0.012,
+  "tip_force_N": 200,
+  "max_deflection_m": 0.001,
+  "design_factor": 2,
+  "material": {
+    "name": "illustrative_aluminum",
+    "E_Pa": 69000000000.0,
+    "yield_Pa": 250000000.0,
+    "density_kg_m3": 2700
+  }
+}
